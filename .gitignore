@@ -1,0 +1,18 @@
+# Git ignore
+
+__pycache__/
+*.pyc
+env/
+.env
+*.sqlite3
+instance/
+venv/
+node_modules/
+/dist
+
+# Docker
+**/pgdata
+
+# Editor
+.vscode/
+.idea/
